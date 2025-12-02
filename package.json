@@ -1,0 +1,41 @@
+{
+  "name": "base-split-plugin",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "飞书多维表格数据拆分插件",
+  "scripts": {
+    "start": "pnpm run dev",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "clean": "rm -rf dist node_modules pnpm-lock.yaml",
+    "reinstall": "pnpm run clean && pnpm install"
+  },
+  "keywords": [
+    "lark",
+    "bitable",
+    "split",
+    "plugin"
+  ],
+  "author": "",
+  "license": "ISC",
+  "output": "dist",
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@lark-base-open/js-sdk": "0.3.0-alpha",
+    "@mui/icons-material": "^7.3.1",
+    "@mui/material": "^7.3.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.24",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.7.0",
+    "less": "^4.4.1",
+    "typescript": "^5.9.2",
+    "vite": "^5.4.19",
+    "xlsx": "^0.18.5"
+  }
+}
